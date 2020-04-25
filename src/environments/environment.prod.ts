@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  MODEL_URL: "http://pwa.awslabs.cf/model/",
 };
