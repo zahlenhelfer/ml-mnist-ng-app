@@ -24,8 +24,8 @@ export class AppComponent implements OnInit, AfterViewInit {
 
   private model;
   private context: CanvasRenderingContext2D;
-  private title = "";
-  private predicted = "";
+  public title = "";
+  public predicted = "";
 
   constructor() {}
 
