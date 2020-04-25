@@ -10,6 +10,7 @@ import {
 import { fromEvent } from "rxjs";
 import { switchMap, takeUntil, pairwise } from "rxjs/operators";
 import * as tf from "@tensorflow/tfjs";
+import { environment } from "./../environments/environment";
 
 @Component({
   selector: "app-root",

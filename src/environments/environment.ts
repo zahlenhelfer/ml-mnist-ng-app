@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  MODEL_URL: "http://localhost/assets/",
+  MODEL_URL: "http://localhost:4200/assets/",
 };
 
 /*
